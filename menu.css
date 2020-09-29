@@ -1,0 +1,114 @@
+.pizzor {
+	
+}
+.pizzor h2 {
+	font-family: "Josefin Sans", Arial, sans-serif;
+	text-align: center;
+	font-size: 28px;
+	font-weight: 900;
+	color: white;
+}
+.type_7 {
+border: 0;
+    width: 320px;
+    height: 3px;
+    color: white;
+    background-color: white;
+}
+.type_8 {
+    border: 0;
+    width: 150px;
+    height: 3px;
+    color: white;
+    background-color: white;
+}
+
+.menu-body {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  color: #FFA500;
+}
+
+.menu-section {
+  margin-bottom: 80px;
+  margin: 20px;
+}
+.menu-section p {
+  color: #63D471;
+  font-family: "Roboto";
+  font-weight: bold;
+}
+
+.menu-section-title {
+  font-family: "Roboto";
+  font-size: 20px;
+  display: block;
+  color: #63D471;
+  font-weight:bold;
+  margin: 20px 0; 
+  text-align: Center;
+}
+
+.menu-item {
+  margin: 35px 0;
+  width: 300px;
+  font-size: 15px;
+}
+
+.menu-item-name{
+  font-family: "Roboto";
+  font-weight: bold;
+    color: #FFA500;
+  border-bottom: 2px solid rgb(213, 213, 213);
+}
+
+.menu-item-description {
+  font-style: italic;
+  font-size: .9em;
+  line-height: 1.5em;
+   font-family: "Roboto";
+   color: white;
+  font-weight: bold;
+}
+
+.menu-item-price{
+  float: right;
+  font-weight: bold;
+   font-family: "Roboto";
+  margin-top: -22px;
+  color: inherit;
+    pointer-events: none;
+  cursor: default;
+  text-decoration: none;
+}
+.footer {
+	display: flex;
+	justify-content: center;
+width: 100%;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: #000;
+}
+@media(max-width: 786px) {
+.footer {
+	display: block;
+	justify-content: center;
+	margin: 0 auto;
+width: 100%;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: #000;
+}	
+.menu-body {
+    width: 100%;
+    margin: 0 auto;
+    display: inline-grid;
+    justify-content: center;
+    color: #63D471;
+}
+
+}
